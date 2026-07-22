@@ -57,6 +57,7 @@ Spring PetClinic(오픈소스 샘플 앱)을 배포해 DB 연결·Auto Scaling·
 ## 검증 결과 (Evidence)
 
 실제 콘솔/터미널 화면 녹화로 각 목표 달성을 검증했습니다.
+달성 결과는 맨 하단의 보고서 및 발표자료를 참고해주세요.
 
 | 테스트 | 내용 |
 |---|---|
@@ -67,10 +68,17 @@ Spring PetClinic(오픈소스 샘플 앱)을 배포해 DB 연결·Auto Scaling·
 | Alarm 테스트(CPU 사용률) | Web/WAS CPU 사용률 임계치 도달 시 알림 확인 |
 | RDS 장애 복구(RTO) | RDS Multi-AZ 인스턴스 강제 종료 → 5분(00:05:00.91) 내 복구 확인 |
 
-**녹화 영상 전체**: [Google Drive 🔗](https://drive.google.com/drive/folders/1g_YJ7fKY2FJCyy3DFw9vW4FEcyqRg_0U?usp=sharing)
+
 
 ---
 
 ## 사용 기술
 
 AWS (VPC, ALB, NLB, EC2 Auto Scaling, RDS Multi-AZ, Route 53, CloudFront, ACM, CloudWatch, SNS, Lambda, S3)
+
+---
+
+## 보고서 및 발표자료
+
+- 녹화 영상 전체: [테스트 녹화 동영상 드라이브 🔗](https://drive.google.com/drive/folders/1g_YJ7fKY2FJCyy3DFw9vW4FEcyqRg_0U?usp=sharing)
+- 발표자료: [3-tier architecture ppt](https://drive.google.com/file/d/1sSVMmTjcQT-3PiWE8Atr3kqF_qHUt33s/view?usp=drive_link)
