@@ -63,7 +63,7 @@ Spring PetClinic(오픈소스 샘플 앱)을 배포해 DB 연결·Auto Scaling·
 |---|---|
 | Auto Scaling + PetClinic | 트래픽 증가 시 인스턴스 자동 확장 및 애플리케이션 정상 동작 확인 |
 | CloudWatch 대시보드 | 모니터링 대시보드 구성 시연 |
-| Latency 테스트 | ALB/CloudFront 도메인 기준 150ms 이하 확인 |
+| Latency 테스트 | 브라우저 Network 탭에서 정적 리소스(content.css) 응답 25ms 확인 (목표 150ms 이하) |
 | Alarm 테스트(인스턴스 종료) | Web/WAS 인스턴스 종료 시 Slack/이메일 알림 확인 |
 | Alarm 테스트(CPU 사용률) | Web/WAS CPU 사용률 임계치 도달 시 알림 확인 |
 | RDS 장애 복구(RTO) | RDS Multi-AZ 인스턴스 강제 종료 → 5분(00:05:00.91) 내 복구 확인 |
